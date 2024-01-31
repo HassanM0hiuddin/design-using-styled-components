@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledHeader, Nav, Logo } from './Header.styled';
+import { StyledHeader, Nav, Logo, Image } from './Header.styled';
 import { Container } from "./styled/Container.styled";
 import { Button } from './styled/Button.styled';
 import { Flex } from './styled/Flex.styled';
@@ -18,9 +18,10 @@ const Header = () => {
      <div>
       <h1>Buliding a better Community!</h1>
       <p>Unite, Share, Thrive: Your Community Hub for Connection and Collaboration</p>
-      <Button bg=""></Button>
-
+      <Button bg="#ff0099" color='#fff'>Get Started For Free</Button>
      </div>
+
+     <Image src='./images/illustration-mockups.svg' alt='No Images' />
 
 
     </Flex>

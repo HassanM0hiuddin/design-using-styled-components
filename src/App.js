@@ -5,9 +5,11 @@ import { GlobalStyles } from './components/styled/Global.js';
 const theme = {
   colors: {
     text: "#2a3041",
-    body: "#f4f4f4",
+    body: "	#fff",
     footer: "black",
-  }
+  },
+  mobile: '768px',
+
 }
 function App() {
   return (
@@ -16,8 +18,7 @@ function App() {
         <GlobalStyles />
         <Header />
         <Container>
-          <h1>Hello</h1>
-          <TitleContainer>My name is Hassan Mohiuddin </TitleContainer>
+          Hello World
         </Container>
       </>
     </ThemeProvider>
