@@ -9,11 +9,4 @@ export const Container = styled.div`
 
 `
 
-//Exporting a contianer span wiht styled css applied on it 
-export const TitleContainer = styled.span`
-  width: 1000px;
- max-width: 100%;
- padding: 0 20px;
- margin: auto;
-
-`
+//Exporting a contianer span with styled css applied on it 

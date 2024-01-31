@@ -1,14 +1,22 @@
+
 import { ThemeProvider } from 'styled-components';
-import { Container, TitleContainer } from './components/styled/Container.styled'
+import { Container } from './components/styled/Container.styled'
 import Header from './components/Header.js';
 import { GlobalStyles } from './components/styled/Global.js';
+import content from './Content';
+import Card from './components/Card.js';
+import Footer from './components/Footer.js';
+
+
 const theme = {
   colors: {
     text: "#2a3041",
     body: "	#fff",
-    footer: "black",
+    footer: "#012c2e",
   },
   mobile: '768px',
+
+
 
 }
 function App() {
@@ -18,10 +26,13 @@ function App() {
         <GlobalStyles />
         <Header />
         <Container>
-          Hello World
+          {content.map((item, index) => {
+            return <Card key={index} item={item} />
+          })}
         </Container>
+        <Footer />
       </>
-    </ThemeProvider>
+    </ThemeProvider >
 
   );
 }

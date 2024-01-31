@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyledHeader, Nav, Logo, Image } from './Header.styled';
+import { StyledHeader, Nav, Logo, Image } from './styled/Header.styled';
 import { Container } from "./styled/Container.styled";
 import { Button } from './styled/Button.styled';
 import { Flex } from './styled/Flex.styled';
